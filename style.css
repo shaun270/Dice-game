@@ -1,0 +1,103 @@
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Copperplate',fantasy;
+  text-emphasis-color: #393E46;
+}
+h2{
+  display: inline;
+  font-family: 'Lucida Handwriting',cursive;
+
+}
+.dice2{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 600px;
+}
+.dice1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 250px;
+  padding-top: 20px;
+}
+.player1{
+  text-align: center;
+  padding-left: 280px;
+  padding-right: 470px;
+}
+.player2{
+  text-align: center;
+}
+body{
+  background-color: #00ADB5;
+}
+.foot{
+  text-align: center;
+}
+.button1{
+  height:100px;
+  width:100px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #14C38E;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: solid line;
+  transition: all 0.4s ease 0s;
+  margin-left: 100px;
+}
+.button1:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+
+}
+.button2{
+  height:100px;
+  width:100px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #14C38E;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: solid line;
+  transition: all 0.4s ease 0s;
+  margin-left: 800px;
+}
+.button2:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+.button3{
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #14C38E;
+  margin-left: 500px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  border-radius: 5px;
+  display: none;
+}
+.button3:hover{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
